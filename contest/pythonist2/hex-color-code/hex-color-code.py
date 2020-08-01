@@ -5,10 +5,10 @@
 # @Last Modified time: 2016-05-04 13:37:56
 import re
 
-T = input()
+T = int(input(""))
 in_css = False
-for _ in xrange(T):
-	s = raw_input()
+for _ in range(T):
+	s = input()
 	if '{' in s:
 		in_css = True
 	elif '}' in s:
